@@ -76,9 +76,11 @@ This is my personal config with a few of the quirkier tweaks removed. It has bee
   - I remember this as "**K**eep only this buffer"
   - I think the default mnemonic implied was implied to be "**O**nly keep this buffer"
 
-## How to Install
+## How to Use
 1. Launch Helix
-2. Press shift+: to open the command prompt and run the command 'config-open'
-3. Open the config.toml file you want to use on the Github
+2. Open the config file by typing :config-open
+3. Open the config.toml file you wish to use on the Github
 4. Copy its contents to your clipboard
 5. Paste the contents into your config file (space+p)
+6. Save the file (:w)
+7. Reload the config (:config-reload)
