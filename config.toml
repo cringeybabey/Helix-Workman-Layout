@@ -49,6 +49,7 @@ e = "scroll_up"
 
 j = "no_op"
 k = "no_op"
+N = "no_op"
 
 [keys.normal.g]
 n = "move_line_down"
