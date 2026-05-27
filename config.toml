@@ -19,8 +19,6 @@ A-x = "split_selection_on_newline"
 c = "move_next_word_end"
 C = "move_next_long_word_end"
 
-f = "find_till_char"
-F = "till_prev_char"
 j = "find_next_char"
 J = "find_prev_char"
 
@@ -30,8 +28,7 @@ A = "insert_at_line_start"
 I = "insert_at_line_end"
 
 s = "change_selection"
-S = "change_selection_noyank"
-D = "delete_selection_noyank"
+A-s = "change_selection_noyank"
 
 k = "yank"
 
@@ -150,8 +147,7 @@ A = "insert_at_line_start"
 I = "insert_at_line_end"
 
 s = "change_selection"
-S = "change_selection_noyank"
-D = "delete_selection_noyank"
+A-s = "change_selection_noyank"
 
 k = "yank"
 
