@@ -1,6 +1,6 @@
 # Helix Config Files for the Workman Keyboard Layout
 ## The Simplified Config
-![Simplified layout keymap/cheatsheet](Keymap_Simple.pg)
+![Simplified layout keymap/cheatsheet](Keymap_Simple.png)
 This layout has been modified from the standard config to contain as few changes from the Helix defaults as possible. As a result, some keys are in less than optimal positions, and the H key goes unused entirely. The keys that have changed their positions from the defaults are the following:
 
 #### Normal/Select Mode
