@@ -56,7 +56,6 @@ e = "move_line_up"
 
 y = "goto_line_start"
 o = "goto_line_end"
-s = "goto_first_nonwhitespace"
 
 g = "goto_file_start"
 l = "goto_last_line"
@@ -172,7 +171,6 @@ k = "no_op"
 [keys.select.g]
 y = "extend_to_line_start"
 o = "extend_to_line_end"
-s = "extend_to_first_nonwhitespace"
 
 g = "extend_to_file_start"
 l = "extend_to_last_line"
