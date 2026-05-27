@@ -57,7 +57,6 @@ e = "move_line_up"
 y = "goto_line_start"
 o = "goto_line_end"
 
-g = "goto_file_start"
 l = "goto_last_line"
 
 u = "goto_next_buffer"
@@ -172,7 +171,6 @@ k = "no_op"
 y = "extend_to_line_start"
 o = "extend_to_line_end"
 
-g = "extend_to_file_start"
 l = "extend_to_last_line"
 
 u = "goto_next_buffer"
