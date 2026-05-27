@@ -1,6 +1,7 @@
 # Helix Config Files for the Workman Keyboard Layout
 ## The Simplified Config
-This layout has been modified from the regular config to contain as few changes from the Helix defaults as possible. As a result, some keys are in less than optimal positions, and the H key goes unused entirely. The keys that have changed their positions from the defaults are the following:
+![Simplified layout keymap/cheatsheet](Keymap_Simple.png)
+This layout has been modified from the standard config to contain as few changes from the Helix defaults as possible. As a result, some keys are in less than optimal positions, and the H key goes unused entirely. The keys that have changed their positions from the defaults are the following:
 
 #### Normal/Select Mode
 * Movement (up/down/left/right)
@@ -22,7 +23,8 @@ This layout has been modified from the regular config to contain as few changes 
   * Goto **L**ast line
   * I also remember this based on its position as the newline key
 
-## The Regular Config
+## The Standard Config
+![Standard layout keymap/cheatsheet](Keymap_Standard.png)
 This is my personal config with a few of the quirkier tweaks removed. It has been designed through months of on-and-off tweaking and trial by fire to be as convenient as possible. Functions that are in inconvenient spots on the simplified layout have been shifted around to make the Helix experience as effortless as possible. In some cases this comes at the cost of intuition and memorability, but I've created pretty solid mnemonics for many of these, which should make them easier to remember:
 
 #### Normal/Select Mode
