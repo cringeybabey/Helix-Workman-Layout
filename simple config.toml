@@ -1,32 +1,11 @@
 [keys.normal]
-t = "select_mode"
-
 y = "move_char_left"
 n = "move_visual_line_down"
 e = "move_visual_line_up"
 o = "move_char_right"
 
-h = "extend_line_below"
-H = "extend_to_line_bounds"
-
-v = "copy_selection_on_next_line"
-V = "copy_selection_on_prev_line"
-
-x = "select_regex"
-X = "split_selection"
-A-x = "split_selection_on_newline"
-
-c = "move_next_word_end"
-C = "move_next_long_word_end"
-
-f = "find_till_char"
-F = "till_prev_char"
-j = "find_next_char"
-J = "find_prev_char"
-
-s = "change_selection"
-S = "change_selection_noyank"
-D = "delete_selection_noyank"
+j = "move_next_word_end"
+J = "move_next_long_word_end"
 
 k = "yank"
 
@@ -52,9 +31,6 @@ e = "move_line_up"
 
 y = "goto_line_start"
 o = "goto_line_end"
-s = "goto_first_nonwhitespace"
-
-g = "goto_file_start"
 l = "goto_last_line"
 
 u = "goto_next_buffer"
@@ -114,34 +90,13 @@ C-j = "no_op"
 # ----------------------------------------
 
 [keys.select]
-t = "normal_mode"
-
 y = "extend_char_left"
 n = "extend_visual_line_down"
 e = "extend_visual_line_up"
 o = "extend_char_right"
 
-h = "extend_line_below"
-H = "extend_to_line_bounds"
-
-v = "copy_selection_on_next_line"
-V = "copy_selection_on_prev_line"
-
-x = "select_regex"
-X = "split_selection"
-A-x = "split_selection_on_newline"
-
-c = "extend_next_word_end"
-C = "extend_next_long_word_end"
-
-f = "extend_till_char"
-F = "extend_till_prev_char"
-j = "extend_next_char"
-J = "extend_prev_char"
-
-s = "change_selection"
-S = "change_selection_noyank"
-D = "delete_selection_noyank"
+j = "extend_next_word_end"
+J = "extend_next_long_word_end"
 
 k = "yank"
 
@@ -164,9 +119,6 @@ k = "no_op"
 [keys.select.g]
 y = "extend_to_line_start"
 o = "extend_to_line_end"
-s = "extend_to_first_nonwhitespace"
-
-g = "extend_to_file_start"
 l = "extend_to_last_line"
 
 u = "goto_next_buffer"
