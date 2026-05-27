@@ -34,6 +34,7 @@ S = "change_selection_noyank"
 D = "delete_selection_noyank"
 
 k = "yank"
+
 l = "open_below"
 L = "open_above"
 
