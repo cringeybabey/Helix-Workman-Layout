@@ -56,7 +56,6 @@ e = "move_line_up"
 
 y = "goto_line_start"
 o = "goto_line_end"
-
 l = "goto_last_line"
 
 u = "goto_next_buffer"
@@ -170,7 +169,6 @@ k = "no_op"
 [keys.select.g]
 y = "extend_to_line_start"
 o = "extend_to_line_end"
-
 l = "extend_to_last_line"
 
 u = "goto_next_buffer"
