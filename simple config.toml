@@ -1,0 +1,224 @@
+[keys.normal]
+t = "select_mode"
+
+y = "move_char_left"
+n = "move_visual_line_down"
+e = "move_visual_line_up"
+o = "move_char_right"
+
+h = "extend_line_below"
+H = "extend_to_line_bounds"
+
+v = "copy_selection_on_next_line"
+V = "copy_selection_on_prev_line"
+
+x = "select_regex"
+X = "split_selection"
+A-x = "split_selection_on_newline"
+
+c = "move_next_word_end"
+C = "move_next_long_word_end"
+
+f = "find_till_char"
+F = "till_prev_char"
+j = "find_next_char"
+J = "find_prev_char"
+
+i = "insert_mode"
+a = "append_mode"
+I = "insert_at_line_start"
+A = "insert_at_line_end"
+
+s = "change_selection"
+S = "change_selection_noyank"
+D = "delete_selection_noyank"
+
+k = "yank"
+l = "open_below"
+L = "open_above"
+
+N = "search_next"
+E = "search_prev"
+
+A-c = "no_op"
+O = "no_op"
+
+[keys.normal.z]
+n = "scroll_down"
+e = "scroll_up"
+
+j = "no_op"
+k = "no_op"
+
+[keys.normal.g]
+n = "move_line_down"
+e = "move_line_up"
+
+y = "goto_line_start"
+o = "goto_line_end"
+s = "goto_first_nonwhitespace"
+
+g = "goto_file_start"
+l = "goto_last_line"
+
+u = "goto_next_buffer"
+
+h = "no_op"
+k = "no_op"
+j = "no_op"
+
+[keys.normal.C-w]
+y = "jump_view_left"
+n = "jump_view_down"
+e = "jump_view_up"
+o = "jump_view_right"
+
+C-y = "jump_view_left"
+C-n = "jump_view_down"
+C-e = "jump_view_up"
+C-o = "jump_view_right"
+
+Y = "swap_view_left"
+N = "swap_view_down"
+E = "swap_view_up"
+O = "swap_view_right"
+
+k = "wonly"
+
+h = "no_op"
+j = "no_op"
+l = "no_op"
+
+C-h = "no_op"
+C-j = "no_op"
+C-l = "no_op"
+C-k = "no_op"
+
+H = "no_op"
+J = "no_op"
+K = "no_op"
+L = "no_op"
+
+[keys.normal.space]
+k = "yank_to_clipboard"
+K = "yank_main_selection_to_clipboard"
+
+y = "no_op"
+Y = "no_op"
+
+[keys.insert]
+C-y = "delete_char_backward"
+C-n = "insert_newline"
+
+C-h = "no_op"
+C-j = "no_op"
+
+# ----------------------------------------
+# full copy of normal maps for select mode 
+# ----------------------------------------
+
+[keys.select]
+t = "normal_mode"
+
+y = "extend_char_left"
+n = "extend_visual_line_down"
+e = "extend_visual_line_up"
+o = "extend_char_right"
+
+h = "extend_line_below"
+H = "extend_to_line_bounds"
+
+v = "copy_selection_on_next_line"
+V = "copy_selection_on_prev_line"
+
+x = "select_regex"
+X = "split_selection"
+A-x = "split_selection_on_newline"
+
+c = "extend_next_word_end"
+C = "extend_next_long_word_end"
+
+f = "extend_till_char"
+F = "extend_till_prev_char"
+j = "extend_next_char"
+J = "extend_prev_char"
+
+i = "insert_mode"
+a = "append_mode"
+I = "insert_at_line_start"
+A = "insert_at_line_end"
+
+s = "change_selection"
+S = "change_selection_noyank"
+D = "delete_selection_noyank"
+
+k = "yank"
+
+l = "open_below"
+L = "open_above"
+
+N = "extend_search_next"
+E = "extend_search_prev"
+
+O = "no_op"
+A-c = "no_op"
+
+[keys.select.z]
+n = "scroll_down"
+e = "scroll_up"
+
+j = "no_op"
+k = "no_op"
+
+[keys.select.g]
+y = "extend_to_line_start"
+o = "extend_to_line_end"
+s = "extend_to_first_nonwhitespace"
+
+g = "extend_to_file_start"
+l = "extend_to_last_line"
+
+u = "goto_next_buffer"
+
+h = "no_op"
+k = "no_op"
+j = "no_op"
+
+[keys.select.C-w]
+y = "jump_view_left"
+n = "jump_view_down"
+e = "jump_view_up"
+o = "jump_view_right"
+
+C-y = "jump_view_left"
+C-n = "jump_view_down"
+C-e = "jump_view_up"
+C-o = "jump_view_right"
+
+Y = "swap_view_left"
+N = "swap_view_down"
+E = "swap_view_up"
+O = "swap_view_right"
+
+k = "wonly"
+
+h = "no_op"
+j = "no_op"
+l = "no_op"
+
+C-h = "no_op"
+C-j = "no_op"
+C-l = "no_op"
+C-k = "no_op"
+
+H = "no_op"
+J = "no_op"
+K = "no_op"
+L = "no_op"
+
+[keys.select.space]
+k = "yank_to_clipboard"
+K = "yank_main_selection_to_clipboard"
+
+y = "no_op"
+Y = "no_op"
