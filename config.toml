@@ -166,6 +166,7 @@ e = "scroll_up"
 
 j = "no_op"
 k = "no_op"
+N = "no_op"
 
 [keys.select.g]
 y = "extend_to_line_start"
