@@ -29,7 +29,10 @@ i = "append_mode"
 A = "insert_at_line_start"
 I = "insert_at_line_end"
 
+D = "delete_selection_noyank"
+
 s = "change_selection"
+S = "change_selection_noyank"
 A-s = "change_selection_noyank"
 
 k = "yank"
