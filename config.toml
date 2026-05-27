@@ -106,6 +106,7 @@ Y = "no_op"
 
 [keys.insert]
 C-y = "delete_char_backward"
+C-o = "delete_char_forward"
 C-n = "insert_newline"
 
 C-h = "no_op"
