@@ -4,22 +4,22 @@ This layout has been modified from the regular config to contain as few changes 
 
 #### Normal/Select Mode
 * Movement (up/down/left/right)
-* Select next/previous search match (default **n/N**, changed to **N/E**)
+* Select next/previous search match (default **n/N**, **changed to N/E**)
   * (This is preferrable to the default anyways, because it's more convenient and frees up a key)
   * You can memorize these based on their positions at the up/down movement keys
-* Move to next word end (default e, changed to j)
+* Move to next word end (default **e**, **changed to j**)
   * Memorize these based on the location of the key: clustered with the other word movement keys
-  * J for "jump to end of next word" (a stretch, I know)
-* Open new line below/above selection (default o, changed to l)
-  * L for line
-* Yank (default y, changed to k)
-  * K for Kopy (this one is also a stretch, I know)
+  * J for "**J**ump to end of next word" (a stretch, I know)
+* Open new line below/above selection (default **o**, **changed to l**)
+  * L for **L**ine
+* Yank (default **y**, **changed to k**)
+  * K for **K**opy (this one is also a stretch, I know)
 
 #### Goto Mode:
-* Goto next file (default gn, changed to gu)
+* Goto next file (default **gn**, **changed to gu**)
   * Memorize this based on the position of the key: right next to the key for "goto previous file"
-* Goto last line of file (default ge, changed to gl)
-  * Goto last line
+* Goto last line of file (default **ge**, **changed to gl**)
+  * Goto **L**ast line
   * I also remember this based on its position as the newline key
 
 ## The Regular Config
@@ -28,49 +28,48 @@ This is my personal config with a few of the quirkier tweaks removed. It has bee
 #### Normal/Select Mode
 ##### Basics
 * Movement (up/down/left/right)
-* Select next/previous search match (default n/shift+N, changed to shift+N/shift+E)
+* Select next/previous search match (default **n/shift+N**, **changed to shift+N/shift+E**)
   * (This is preferrable to the default anyways, because it's more convenient and frees up a key)
-* Insert text before selection (default a, changed to i)
+* Insert text before selection (default **a**, **changed to i**)
   * I swapped the default insert and append commands because they are both located at the left and right ends of the home row, and it made more sense to me that "insert to the right of selection" should be on the right side, and "insert to the left of selection" should be on the left side
 * Append text after selection (default i, changed to a)
   * Append doesn't even mean "insert before" anyways!
 
 ##### Other Commands
-* Toggle select/visual mode (default v, changed to t)
-* Find till next character (default t, changed to f)
+* Toggle select/visual mode (default **v**, **changed to t**)
+* Find till next character (default **t**, **changed to f**)
   * I swapped these because I find myself using the "find till" command much more than the "find" command
-* Find next character (default f, changed to j)
+* Find next character (default **f**, **changed to j**)
   * Memorize this based on its position next to "find till character"
-  * I wanted find "till character" and "find character" to be right next to each-other
-* Move to next word end (default e, changed to c)
-  * J for "conclusion of the next word" (a stretch, I know)
+  * I wanted find "till character" and "find character" to be right next to each-other because this makes the most sense to me
+* Move to next word end (default **e**, **changed to c**)
   * This one might be hard to remember
-* Open new line below/above selection (default o, changed to l)
-  * L for line
+* Open new line below/above selection (default **o**, **changed to l**)
+  * L for **L**ine
   * Memorize these based on their positions at the up/down movement keys
-* Yank (default y, changed to k)
-  * K for Kopy (this one is also a stretch, I know)
-* Change selection (default c, changed to s)
-  * I remember this as substitute selection
+* Yank (default **y**, **changed to k**)
+  * K for **K**opy (this one is also a stretch, I know)
+* Change selection (default **c**, **changed to s**)
+  * I remember this as **S**ubstitute selection
   * Moved here because the C-key is less convenient on the Workman layout, and I find myself using this command constantly
-* Insert new cursor (default shift+C, changed to v)
+* Insert new cursor (default **shift+C**, **changed to v**)
   * With change and toggle moved, it turns out there's room for a dedicated "new cursor" key! This allows us to add shift+V for insert new cursor ABOVE selection as well!
-* Change/delete without yanking (default used alt, changed to shift)
+* Change/delete without yanking (default used **alt**, **changed to shift/capitals**)
   * The previous change allowed us to free the shift+C key and the shift+D key (which was already unused) for the "change/delete without yanking" commands
-* Select a line (default x, changed to h)
+* Select a line (default **x**, **changed to h**)
   * Moved here beacuse I find myself using this command constantly
-* Select matches in selection (default s, changed to x)
+* Select matches in selection (default **s**, **changed to x**)
   * X for selection? This makes sense to me at least
   * I moved this here because I use it significantly less often than the default key at X (highlight a line)
 
 #### Goto mode:
-* Goto next file (default gn, changed to gu)
+* Goto next file (default **gn**, **changed to gu**)
   * Memorize this based on the position of the key: right next to the key for "goto previous file"
-* Goto last line of file (default ge, changed to gl)
+* Goto last line of file (default **ge**, **changed to gl**)
   * Goto last line
   * I also remember this based on its position as the newline key
 
 #### Window mode:
-* Close every buffer but this one (default, o, changed to k)
-  * I remember this as "Keep only this buffer"
-  * I think the default mnemonic implied was implied to be "Only keep this buffer"
+* Close every buffer but this one (default **o**, **changed to k**)
+  * I remember this as "**K**eep only this buffer"
+  * I think the default mnemonic implied was implied to be "**O**nly keep this buffer"
